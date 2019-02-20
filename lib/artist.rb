@@ -17,7 +17,9 @@ end
    @songs << song
  end
 
-
+def save
+  @@all << self
+end  
 
 
 end
