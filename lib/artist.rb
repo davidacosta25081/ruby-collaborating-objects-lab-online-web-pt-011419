@@ -13,11 +13,17 @@ def songs
   @songs
 end
 
+def all
+  @@all
+end
+
+
+
  def add_song (song)
    @songs << song
  end
 
-def self.save
+def save
   @@all << self
 end
 
