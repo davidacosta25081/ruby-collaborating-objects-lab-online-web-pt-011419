@@ -40,7 +40,11 @@ end
 
 
 
-
+def print_songs
+@@all.each do |song|
+  puts song.name
+end
+  
 
 
 
