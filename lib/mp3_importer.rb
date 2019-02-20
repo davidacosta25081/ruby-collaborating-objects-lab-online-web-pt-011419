@@ -1,7 +1,13 @@
 class MP3Importer
 
-  def import(list_of_filenames)
-    list_of_filenames.each {|song| Song.new_by_filename(song)}
-  end
+attr_accessor :path
+
+def initialize(path)
+   @path = path
 end
+
+
+
+
+  def files
     
