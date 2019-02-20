@@ -18,8 +18,7 @@ def all
 end
 
 
-
- def add_song (song)
+def add_song (song)
    @songs << song
  end
 
